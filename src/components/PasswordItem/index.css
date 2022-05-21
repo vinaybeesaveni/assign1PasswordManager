@@ -1,0 +1,82 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c3caea;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+  min-height: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    min-width: 31%;
+  }
+}
+
+.stars {
+  width: 100px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .stars {
+    width: 80px;
+  }
+}
+
+.delete-btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.website-name {
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.username {
+  color: white;
+  margin-top: 7px;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.password {
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.initial {
+  background-color: green;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 22px;
+  border-radius: 25px;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .initial {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}
